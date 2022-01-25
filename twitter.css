@@ -5,36 +5,179 @@
 }
 
 body {
-  font-size: 20px;
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  padding-bottom: 95px;
 }
 .container {
-  max-width: 135rem;
+  max-width: 134rem;
   margin-right: auto;
   margin-left: auto;
-  padding: rem;
+  padding: 0 1rem;
+}
+.navgreen {
+  padding: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 .navwrapper {
-  color: black;
+  color: white;
   text-decoration: none;
-  background-color: yellow;
-  padding: 0.75rem 1rem;
+  background-color: black;
+  padding: 1rem;
 }
-.multistars {
-  height: 3rem;
+
+.profile {
+  height: 2rem;
+  margin-right: 1.31rem;
 }
-.flex-wrapper {
+.multiplestars {
+  height: 2rem;
+}
+.multiplestars {
+  fill: currentColor;
+}
+.profilehome {
   display: flex;
   justify-content: space-between;
 }
-.homewrapper {
+.overallflex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.netflix {
+  height: 2rem;
+  border-radius: 50%;
+  margin-right: 0.63rem;
+}
+.tick {
+  height: 1rem;
+  margin-right: 0.19rem;
+}
+.overallnetflix-wrapper {
+  display: flex;
+  margin-top: 1.26rem;
+}
+.flextwo {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.netflix-header {
   display: flex;
   align-items: center;
 }
-.profilepix {
-  height: 3rem;
-  margin-right: 1rem;
+.moviepix img {
+  width: 100%;
+  margin-top: 0.63rem;
+  border-radius: 0.63rem 0.63rem;
+  border: 1px solid thistle;
 }
-.overall-flex {
+.chaticon,
+.retweeticon,
+.loveicon,
+.shareicon {
+  height: 1.26rem;
+  margin-right: 0.44rem;
+}
+
+.chaticon:hover,
+.retweeticon:hover {
+  color: blue;
+}
+
+.chaticon path,
+.retweeticon path,
+.loveicon path,
+.shareicon {
+  fill: currentColor;
+}
+.iconwrapper {
   display: flex;
   justify-content: space-between;
+  padding: 0.5rem 0.5rem;
+}
+.retweet-wrapper {
+  display: flex;
+  margin-right: 0.19rem;
+}
+.loveicon-wrapper {
+  display: flex;
+}
+.horizontal {
+  margin-top: 1.26rem;
+}
+.threetweets-wrapper {
+  display: flex;
+  margin-right: 1.26rem;
+}
+.nos {
+  margin-right: 0.31rem;
+}
+.like-wrapper {
+  display: flex;
+}
+.tweetlike-overallwrapper {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.flower {
+  height: 3rem;
+  border-radius: 50%;
+}
+.imagewrapper {
+  margin-right: 1.26rem;
+}
+.netretweeted {
+  display: flex;
+}
+.overallrtweeetnet {
+  display: flex;
+}
+.fairladytwo img {
+  width: 100%;
+  margin-top: 0.63rem;
+  border-radius: 0.63rem 0.63rem;
+  border: 1px solid thistle;
+}
+.secondflex {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-top: 1.13rem;
+}
+.borderbottom {
+  border-bottom: 1px solid grey;
+}
+.bordertop {
+  border-top: 1px solid grey;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.houseicon,
+.searchicon,
+.bellicon,
+.envelopicon {
+  height: 1.26em;
+  margin-right: 0.44rem;
+}
+.houseicon,
+.searchicon,
+.bellicon,
+.envelopicon {
+  fill: currentColor;
+}
+.overallbottomflex {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
 }
