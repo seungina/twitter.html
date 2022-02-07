@@ -9,6 +9,7 @@ body {
   background-color: black;
   color: white;
   padding-bottom: 95px;
+  padding-top: 63.98px;
 }
 .container {
   max-width: 134rem;
@@ -47,6 +48,9 @@ body {
 .overallflex {
   display: flex;
   justify-content: space-between;
+}
+.overallnetflix-wrapper {
+  background-color: black;
 }
 
 .netflix {
@@ -180,4 +184,208 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 1rem 2rem;
+}
+.iconscolor {
+  background-color: black;
+  height: 20rem;
+  width: 30%;
+}
+.twibirdy,
+.twihome,
+.twiharsh,
+.twibell,
+.twimessage,
+.twiprofile,
+.twidots,
+.twibookmark,
+.twilist {
+  height: 1.26rem;
+}
+.twibirdy path,
+.twihome path,
+.twiharsh path,
+.twibell path,
+.twimessage path,
+.twiprofile path,
+.twidots path,
+.twibookmark path,
+.twilist path {
+  fill: currentColor;
+}
+.twihomeflex {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.homehome {
+  margin-left: 1rem;
+}
+.twiharshflex {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.exploretwi {
+  margin-left: 1rem;
+}
+.twibellflex {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.notificationtwi {
+  margin-left: 1rem;
+}
+.twimessageflex {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.messagetwi {
+  margin-left: 1rem;
+}
+.bookmarkflex {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.bookmarktwi {
+  margin-left: 1rem;
+}
+.twiprofileflex {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.profiletwi {
+  margin-left: 1rem;
+}
+.twitterbluebotton {
+  margin: 1rem 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  padding: 1rem 4rem;
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border-radius: 629rem;
+  box-shadow: rgb(0 0 0 / 8%) 0rem 0.51rem 1.8rem;
+  border: none;
+}
+.lowerprofile {
+  height: 2rem;
+}
+.lowerprofileflex {
+  display: flex;
+}
+.parawrapper {
+  margin-left: 1rem;
+}
+
+.img .searchicon {
+  height: 2rem;
+  margin-right: 1.26rem;
+}
+.formwrapper input {
+  border: none;
+  background-color: black;
+  margin-left: 1rem;
+}
+.borderwrapper {
+  display: flex;
+  background-color: black;
+  border-radius: 629rem;
+  padding: 1rem 3rem;
+  color: white;
+  border: 1px solid grey;
+  margin-top: 1rem;
+}
+.finalbox {
+  margin-top: 2rem;
+  height: 33rem;
+  border: 1px solid grey;
+  border-radius: 2rem 2rem;
+  padding: 1rem 1rem;
+  margin-bottom: 2rem;
+}
+.trends {
+  justify-content: center;
+}
+.settingswrapper {
+  height: 1.26rem;
+}
+.settingswrapper path {
+  fill: currentColor;
+}
+.trendflex {
+  display: flex;
+  justify-content: space-between;
+}
+.trendingone-wrapper {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.ashdots {
+  height: 1.3rem;
+}
+.showmore {
+  margin-top: 1rem;
+  color: blue;
+}
+.searchinput {
+  height: 1.26rem;
+}
+.searchinput path {
+  fill: currentColor;
+}
+.follow {
+  border: 1px solid grey;
+  border-radius: 2rem 2rem;
+  padding: 1rem 1rem;
+}
+
+.flextwobutton {
+  display: flex;
+}
+.flowerflower {
+  height: 2rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+.overallflexflower {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.followbutton {
+  background-color: white;
+  margin-left: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  border: none;
+}
+.overallflexall {
+  display: flex;
+}
+.flextwowrapper {
+  width: 40%;
+}
+.final {
+  width: 30%;
+  padding-left: 2rem;
+}
+@media screen and (max-width: 425px) {
+  .iconscolor,
+  .final,
+  .moviepix,
+  .fairladytwo {
+    display: none;
+  }
+}
+@media screen and (max-width: 425px) {
+  .flextwowrapper {
+    width: 100%;
+  }
 }
