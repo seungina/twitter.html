@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -188,7 +190,8 @@ body {
 .iconscolor {
   background-color: black;
   height: 20rem;
-  width: 30%;
+  width: 20%;
+  padding: 3rem;
 }
 .twibirdy,
 .twihome,
@@ -199,7 +202,7 @@ body {
 .twidots,
 .twibookmark,
 .twilist {
-  height: 1.26rem;
+  height: 2rem;
 }
 .twibirdy path,
 .twihome path,
@@ -257,7 +260,11 @@ body {
   align-items: center;
   margin-top: 1rem;
 }
-
+h2 {
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
 .profiletwi {
   margin-left: 1rem;
 }
@@ -265,11 +272,10 @@ body {
   margin: 1rem 1rem;
   font-size: 1rem;
   font-family: inherit;
-  padding: 1rem 4rem;
+  padding: 1rem 5rem;
   background-color: rgb(29, 155, 240);
   color: white;
   border-radius: 629rem;
-  box-shadow: rgb(0 0 0 / 8%) 0rem 0.51rem 1.8rem;
   border: none;
 }
 .lowerprofile {
@@ -362,9 +368,10 @@ body {
 .followbutton {
   background-color: white;
   margin-left: 1rem;
-  padding: 1rem 2rem;
+  padding: 0.5rem 1.2rem;
   border-radius: 2rem;
   border: none;
+  font-weight: 600;
 }
 .overallflexall {
   display: flex;
